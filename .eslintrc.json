@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "react-app",
+    "plugin:eslint-plugin/recommended"
+  ],
+  "rules": {
+    "indent": ["error", 2],
+    "semi": ["error", "never"]
+  }
+}
