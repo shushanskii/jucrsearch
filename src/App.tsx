@@ -1,11 +1,12 @@
 import React from 'react'
-import { Button } from 'components/Button'
+import DataContextProvider from 'components/DataContext'
 
 function App() {
-  console.log('Button', Button)
 
   return (
-    <>JUCR</>
+    <DataContextProvider>
+      <>JUCR</>
+    </DataContextProvider>
   )
 }
 
